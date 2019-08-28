@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('GothaProBol.woff.woff2') format('woff2'),
-         url('GothaProBol.woff') format('woff');
+    src: url('GothaProBold.woff2') format('woff2'),
+         url('GothaProBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
