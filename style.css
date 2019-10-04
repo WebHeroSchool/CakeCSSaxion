@@ -16,6 +16,8 @@ h1, h2, h3, h4, h5 {
 	margin: 0;
 }
 
+
+
 .wrap {
 	min-width: 320px;
 	font-family: 'Gotham Pro', Arial, sans-serif; 
@@ -33,7 +35,6 @@ h1, h2, h3, h4, h5 {
 
 .header-wrap {
 	height: 72px;
-	/*padding: 24px 20px 26px 20px;  */
 }
 
 .header__search-form, .header__sign,
@@ -48,6 +49,7 @@ h1, h2, h3, h4, h5 {
     width: 87%;
     margin: auto;
 }
+
 .header__col-left {
 	display: flex;
 	align-items: center;
@@ -59,7 +61,7 @@ h1, h2, h3, h4, h5 {
     height: 22px;
     background-size: cover;
     background-repeat: no-repeat;
-    /*margin-right: 45px;*/
+    
 }
 
 .menu__icon {
@@ -92,6 +94,18 @@ h1, h2, h3, h4, h5 {
  	text-decoration: none;
  	text-transform: uppercase;
  }
+
+.main-menu__item, .header__language-wrap, .header__sign-title, .header__cart-text, .card__description-title, .baner__video-circle, .arrow-wrap, .footer-nav{
+	cursor: pointer;
+}
+
+.main-menu__item:hover {
+	color:#696969;
+}
+
+.card__description-title:hover {
+		text-decoration: underline;
+}
 
 .header__cart-circle {
 	display: none;
@@ -463,16 +477,6 @@ h1, h2, h3, h4, h5 {
     background-repeat: no-repeat;
 }
 
-/*.gallery:after {
-	content: "";
-	position: absolute;
-	left: 0;
-    bottom: 0;
-    border-bottom: 38px solid #fff;
-    border-right: 835px solid #000;
-}*/
-
-
 .gallery-wrap {
 	margin: auto;
 }
@@ -541,7 +545,6 @@ h1, h2, h3, h4, h5 {
 .gallery__img {
 	width: 140px;
 	height: 140px;
-	
 }
 
 .footer {
@@ -635,7 +638,7 @@ h1, h2, h3, h4, h5 {
     width: 93px;
     float: right;
 }
-}
+
 
 @media (min-width: 375px) and (max-width: 479px) {
 	
@@ -1042,7 +1045,7 @@ h1, h2, h3, h4, h5 {
 	
 .wrap {
 	max-width: 1169px;
-	width: 91%;
+	width: 100%;
     margin: 0 auto;
 }
 
@@ -1059,9 +1062,13 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
 }
 
-
 .header-wrap {
 	height: 129px;
+}
+
+.header-wrap, .main__slider, .products, .baner, .stories, .gallery {
+	width: 91%;
+	margin:auto;
 }
 
 .main-menu{
@@ -1922,9 +1929,6 @@ h1, h2, h3, h4, h5 {
 	height: 18px;
 }
 
-.icon-pinterest {
-	width: 14px;
-}
 
 .footer-copyrights {
 	font-size: 12px;
