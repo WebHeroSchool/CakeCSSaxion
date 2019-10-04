@@ -589,7 +589,7 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	justify-items: center;
 	grid-row-gap: 18px;
-	margin-bottom: 92px;
+	margin-bottom: 70px;
 }
 
 .sign__sub-item-3{
@@ -603,14 +603,12 @@ h1, h2, h3, h4, h5 {
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 27px;
+	margin-bottom: 76px;
 }
 
 .footer__icon-wrap{
 	text-align:center;
 	margin-bottom: 25px;
-	margin-top: 10px;
-	
 }
 
 .footer-icon{
@@ -675,6 +673,7 @@ h1, h2, h3, h4, h5 {
 .baner__text-content {
     width: 85%;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 .baner__video {
@@ -682,15 +681,6 @@ h1, h2, h3, h4, h5 {
 	width: 284px;	
 }
 
-.baner__video-circle {
-	top:-91px;
-    left:130px;
-}
-
-.baner__video-circle::after{
-	left: 4px;
-	top:3px;
-}
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -719,6 +709,17 @@ h1, h2, h3, h4, h5 {
 
 .gallery__img-wrap{
 	width: 88%;
+}
+.baner__text-content {
+    
+    margin-bottom: 27px;
+}
+
+.baner__video {
+    background: url(img/baner-video.png);
+    background-size: cover;
+    height: 234px;
+    width: 417px;
 }
 }
 
@@ -1412,7 +1413,7 @@ h1, h2, h3, h4, h5 {
 	display: block;
 }
 .footer {
-	height: 303px;
+	height: 310px;
 }
 
 .footer-wrap{
@@ -1452,8 +1453,8 @@ h1, h2, h3, h4, h5 {
 	align-items: start;
 	justify-items: left;
 	grid-row-gap: 38px;
-	margin-bottom: 13px;
-	height: 187px;
+	margin-bottom: 0;
+	height: 171px;
 }
 
 .sign__sub-item-3{
@@ -1465,8 +1466,8 @@ h1, h2, h3, h4, h5 {
 	font-weight: bold;
 	margin-top: 1px;
 	margin-left: 0;
-	margin-bottom: 36px;
-	
+	margin-bottom: 22px;
+	margin-top: 22px;
 }
 
 .footer-icon{
@@ -1490,7 +1491,7 @@ h1, h2, h3, h4, h5 {
 
 .wrap {
 	max-width: 1170px;
-	width: 88%;
+	width: 100%;
     margin: 0 auto;
 }
 
@@ -1511,6 +1512,10 @@ h1, h2, h3, h4, h5 {
 	height: 116px;
 }
 
+.header-wrap, .main__slider, .products, .baner, .stories, .gallery {
+	width: 88%;
+	margin:auto;
+}
 .main-menu{
  	width: 100%;
  	height: 116px;
@@ -1709,6 +1714,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: row-reverse; 
 	align-items: center;
+	justify-content: center;
 }
 
 .baner__video {
@@ -1721,7 +1727,7 @@ h1, h2, h3, h4, h5 {
 .baner__text-wrap{
 	width: 286px;
 	height: 186px;
-	padding-left: 12px;
+	padding-left: 25px;
 }
 .baner__text-title {
 	width: 274px;
@@ -1921,7 +1927,8 @@ h1, h2, h3, h4, h5 {
 	font-weight: bold;
 	margin-top: 8px;
 	margin-left: 0;
-	margin-bottom: 36px;
+	margin-bottom: 22px;
+	margin-top: 22px;
 }
 
 .footer-icon {
